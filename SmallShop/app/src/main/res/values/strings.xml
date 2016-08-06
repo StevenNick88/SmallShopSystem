@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">微店管理系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">放开以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">载入中...</string>
+    -->
+    <string name="pull_to_refresh_tap_label">点击这里刷新</string>
+    <string name="user">用户账号：</string>
+    <string name="user_value">请输入用户名</string>
+    <string name="password">密码：</string>
+    <string name="password_value">请输入密码</string>
+    <string name="login">登陆系统</string>
+    <string name="reset">重置</string>
+    <string name="buyers">买家</string>
+    <string name="administrator">管理员</string>
+    <string name="title_activity_login">微店管理系统</string>
+    <string name="title_activity_main">管理员端</string>
+    <string name="book_management">图书管理</string>
+    <string name="stu_management">学生管理</string>
+    <string name="user_management">用户管理</string>
+    <string name="query">查询图书</string>
+    <string name="loss">挂失管理</string>
+    <string name="order">预约管理</string>
+    <string name="pay_free">欠费管理</string>
+    <string name="logout">注销</string>
+    <string name="exit">退出</string>
+    <string name="more">更多</string>
+    <string name="title_activity_book_management">图书管理</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_goods_manage">商品管理</string>
+    <string name="g_id">商品编号：</string>
+    <string name="g_id_hint">请输入商品编号</string>
+    <string name="g_query">查找商品</string>
+    <string name="title_activity_goods_info">商品信息</string>
+    <string name="g_price">商品价格：</string>
+    <string name="g_type">商品类型：</string>
+    <string name="g_name">商品名称：</string>
+    <string name="b_publishment">出版社：</string>
+    <string name="borrowed">已借阅：</string>
+    <string name="ordered">已预约：</string>
+    <string name="introduction">商品描述：</string>
+    <string name="add_goods">添加商品</string>
+    <string name="update_goods">修改商品</string>
+    <string name="delete_goods">删除商品</string>
+    <string name="g_num">商品编号：</string>
+    <string name="share_goods">分享商品</string>
+    <string name="title_activity_update_book">修改商品信息</string>
+    <string name="title_activity_user_mange">用户管理</string>
+    <string name="title_activity_users_mange">买家管理</string>
+    <string name="u_name">买家姓名：</string>
+    <string name="s_name">供应商姓名：</string>
+    <string name="s_age">年龄：</string>
+    <string name="u_pwd">买家密码：</string>
+    <string name="u_email">电子邮箱：</string>
+    <string name="s_permitted">借书权限：</string>
+    <string name="u_phone">手机号码：</string>
+    <string name="add_user">添加买家</string>
+    <string name="u_name_value">请输入用户名</string>
+    <string name="user_query">查找买家</string>
+    <string name="title_activity_stu_info">学生信息</string>
+    <string name="update_user">修改买家</string>
+    <string name="delete_user">删除买家</string>
+    <string name="title_activity_update_stu">修改学生信息</string>
+    <string name="title_activity_admin_mange">管理员管理</string>
+    <string name="m_num">管理员编号：</string>
+    <string name="m_permitted">借阅许可：</string>
+    <string name="m_pwd">管理员密码：</string>
+    <string name="add_admin">添加管理员</string>
+    <string name="mq_num_value">请输入编号</string>
+    <string name="admin_query">查找管理员</string>
+    <string name="title_activity_admin_info">管理员信息</string>
+    <string name="title_activity_update_admin">修改管理员信息</string>
+    <string name="update_admin">修改管理员信息</string>
+    <string name="admin_management">管理员管理</string>
+    <string name="title_activity_agent_main">代理端</string>
+    <string name="title_activity_qlobook">QLOBookActivity</string>
+    <string name="title_activity_qbook">商品查询</string>
+    <string name="title_activity_qbook_info">商品信息查询</string>
+    <string name="title_activity_qbook_ordered">预约图书</string>
+    <string name="title_activity_qbook_info_list">商品列表</string>
+    <string name="b_press">出版社：</string>
+    <string name="sq_button">查询</string>
+    <string name="title_activity_qbook_info_list_detail">商品信息详情</string>
+    <string name="borrow_book">借阅图书</string>
+    <string name="order_book">预约图书</string>
+    <string name="delete_admin">删除管理员信息</string>
+    <string name="s_permitborrowtime">允许借书时间：</string>
+    <string name="m_remark">备注：</string>
+    <string name="count">数量：</string>
+    <string name="title_activity_qbook_borrowed">已购商品列表</string>
+    <string name="state">状态：</string>
+    <string name="title_activity_borrowed_book_detail">已购商品详情</string>
+    <string name="borrow_time">借书日期：</string>
+    <string name="user_num">学号：</string>
+    <string name="return_time">还书日期：</string>
+    <string name="overtime">超期天数：</string>
+    <string name="remain_time">剩余天数：</string>
+    <string name="return_book">还书</string>
+    <string name="loss_book">挂失</string>
+    <string name="borrow_book_again">续借</string>
+    <string name="order_b_num">请输入要预约的书号</string>
+    <string name="manage_order_book">管理预约</string>
+    <string name="query_book">查找</string>
+    <string name="title_activity_order_book_detail">预约图书详情</string>
+    <string name="help_value">联系我们 qq:674307000 电话：0773-458248</string>
+    <string name="about_software_value">微店管理系统1.0版  版权所有</string>
+    <string name="title_activity_loss_book">挂失管理</string>
+    <string name="loss_edit">请输入学号</string>
+    <string name="q_stu_loss">查询</string>
+    <string name="title_activity_loss_book_list">挂失图书列表</string>
+    <string name="title_activity_pay_free">欠费管理</string>
+    <string name="pay_edit">请输入学号</string>
+    <string name="title_activity_pay_free_list">欠费图书列表</string>
+    <string name="title_activity_pay_free_list_detail">欠费图书详情</string>
+    <string name="should_pay_free">欠费：</string>
+    <string name="pay_free_hint">欠费声明：欠费=（超期天数 * 0.02）元，请欠费的同学尽快交清欠费，方便你我他！愿您早借早还，避免金钱损失！</string>
+    <string name="pay_free_return">还书并交纳欠费</string>
+    <string name="main_book_query">商品信息查询</string>
+    <string name="borrowed_book_query">已购商品查询</string>
+    <string name="stu_query_book">查询</string>
+    <string name="stu_loss_book">挂失</string>
+    <string name="stu_order_book">预约</string>
+    <string name="stu_logout">注销</string>
+    <string name="stu_exit">退出</string>
+    <string name="about_software">关于</string>
+    <string name="help">帮助</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="chooser_image">选择图片</string>
+    <string name="b_img">选择图片</string>
+    <string name="title_activity_qq">qq</string>
+    <string name="select_img">选择图片</string>
+    <string name="loss_list_instructions">提示：亲，点击挂失图书列表的相应书籍可交纳欠费并取消挂失当前图书！</string>
+    <string name="title_activity_save_now_user">SaveNowUserActivity</string>
+    <string name="online_books">在线商城</string>
+    <string name="relaxation">轻松一刻</string>
+    <string name="title_activity_online_books">在线商城</string>
+
+    <string-array name="system_mange_item">
+        <item>修改密码</item>
+        <!--<item>用户权限管理</item>-->
+        <item>日志管理</item>
+        <item>数据备份</item>
+        <item>历史数据删除</item>
+        <item>系统初始化</item>
+    </string-array>
+
+    <string-array name="online_books_item_name">
+        <item>天猫</item>
+        <item>京东商城</item>
+        <item>亚马逊</item>
+    </string-array>
+
+    <string-array name="online_books_item_url">
+        <item>http://www.tmall.com/</item>
+        <item>http://www.jd.com/</item>
+        <item>http://www.amazon.cn/</item>
+    </string-array>
+    <string-array name="relaxation_item_name">
+        <item>视频欣赏</item>
+        <item>小说欣赏</item>
+        <item>音频欣赏</item>
+    </string-array>
+    <string-array name="relaxation_item_url">
+        <item>http://video.baidu.com/</item>
+        <item>http://www.hao123.com/book</item>
+        <item>http://www.hao123.com/music/wangzhi</item>
+    </string-array>
+
+    <string name="title_activity_web_view">网络资源</string>
+    <string name="title_activity_relaxation">轻松一刻</string>
+    <string name="should_return">应还日期：</string>
+    <string name="title_activity_logo">微店管理系统</string>
+    <string name="title_activity_qbook_admin_borrowed">管理已购商品</string>
+    <string name="title_activity_qborrowed_book_admin_list">QBorrowedBookAdminListActivity</string>
+
+    <string name="notice">店内公告</string>
+    <string name="notice_values">店内公告的内容</string>
+    <string name="g_img">选择图片</string>
+    <string name="title_activity_buyer_mange">买家管理</string>
+    <string name="u_num">买家编号：</string>
+    <string name="u_num_value">请输入买家编号</string>
+    <string name="title_activity_agent_mange">代理管理</string>
+    <string name="title_activity_agent_info">代理信息</string>
+    <string name="title_activity_update_agent">修改代理信息</string>
+
+    <string name="a_num">代理编号：</string>
+    <string name="a_num_value">请输入代理编号</string>
+    <string name="agent_query">查找代理</string>
+    <string name="a_name">代理姓名：</string>
+    <string name="a_pwd">代理密码：</string>
+    <string name="a_introduce">代理描述：</string>
+    <string name="add_agent">添加代理</string>
+    <string name="update_agent">修改代理信息</string>
+    <string name="delete_agent">删除代理</string>
+    <string name="title_activity_supplier_mange">供应商管理</string>
+
+    <string name="s_num">供应商编号：</string>
+    <string name="s_num_value">请输入编号</string>
+    <string name="supplier_query">查找供应商</string>
+    <string name="s_pwd">供应商密码：</string>
+    <string name="s_introduce">供应商描述：</string>
+    <string name="add_supplier">添加供应商</string>
+    <string name="title_activity_supplier_info">供应商信息</string>
+    <string name="title_activity_update_supplier">修改供应商信息</string>
+    <string name="update_supplier">修改供应商</string>
+    <string name="delete_supplier">删除供应商</string>
+
+
+    <string name="m_name">管理员姓名：</string>
+    <string name="title_activity_system_mange">系统管理</string>
+    <string name="g_count">商品数量：</string>
+    <string name="buy_goods">购买商品</string>
+    <string name="g_rebate">商品折扣率：</string>
+    <string name="buyer_num">购买者编号：</string>
+    <string name="goods_rebate">折扣率：</string>
+    <string name="buy_price">购买价格：</string>
+    <string name="buy_time">购买日期：</string>
+    <string name="et_buyer_num">请输入购买者编号</string>
+    <string name="title_activity_message_admin_detail">留言板管理端详情</string>
+    <string name="title_activity_message_admin">留言板管理端</string>
+    <string name="ms_num">留言编号：</string>
+    <string name="msbuyer_num">用户编号：</string>
+    <string name="ms_question">留言内容：</string>
+    <string name="ms_answer">管理员回复：</string>
+    <string name="ms_submit">提交</string>
+    <string name="ms_reply">回复</string>
+    <string name="title_activity_message_user">留言板用户端</string>
+    <string name="history_ms_query">历史留言查询</string>
+    <string name="user_ms">在这留下你想说的话：</string>
+    <string name="title_activity_message_history">历史留言</string>
+    <string name="title_activity_message_history_detail">历史留言详情</string>
+    <string name="title_activity_change_password">修改密码</string>
+    <string name="confirm_password">确认密码：</string>
+    <string name="change_password">修改</string>
+    <string name="change_password_cancel">取消</string>
+    <string name="title_activity_log_mange">日志管理</string>
+    <string name="title_activity_log_detail">日志详情</string>
+    <string name="l_num">日志编号：</string>
+    <string name="log_user_num">操作用户：</string>
+    <string name="log_content">日志内容：</string>
+    <string name="title_activity_outdated_delete">历史数据删除</string>
+    <string name="select_date">请选择日期</string>
+    <string name="del_ensure">确定</string>
+    <string name="del_cancel">取消</string>
+
+    <string name="agent">代理</string>
+    <string name="title_activity_buyer_main">买家端</string>
+    <string name="des">请输入秘钥：</string>
+    <string name="des_intro">秘钥输入说明：密钥长度必须是8的倍数</string>
+    <string name="u_rebate">买家折扣率：</string>
+    <string name="a_level">代理等级：</string>
+    <string name="a_rebate">代理折扣率：</string>
+    <string name="register">买家注册</string>
+    <string name="title_activity_register">买家注册</string>
+    <string name="register_user">注册买家</string>
+    <string name="u_pwd_confirm">确认密码：</string>
+    <string name="title_activity_buyer_info">买家信息</string>
+
+
+</resources>
